@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.songs {
+  background-color: #222;
+  color: aliceblue;
+}
+
+.songs .songs-list {
+  padding: 2rem 20%;
+  display: flex;
+  justify-content: space-between;
+  background-color: blueviolet;
+}
+
+button {
+  width: 8rem;
+  color: aliceblue;
+  background-color: #222;
+  cursor: pointer;
+  border: none;
+  font-size: 1.2rem;
+}
+
+.song-details {
+  background-color: blueviolet;
+  color: #fff;
+  padding: 10%;
+}
